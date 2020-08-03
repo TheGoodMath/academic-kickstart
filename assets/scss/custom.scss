@@ -1,0 +1,163 @@
+// Override this file to add your own SCSS styling.
+// Body
+body{
+    font-weight: 300 !important;
+}
+b, strong{
+    font-weight: 700;
+}
+
+// Home
+.home-section:first-of-type{
+    background: #ffffff !important;
+}
+.btn-primary cta-btns{
+    padding:1.2em 1.618em !important;
+    background-color:yellow;
+    text-decoration:none !important;
+    color:black;
+    font-weight: bold;
+}
+.wg-hero .btn a{
+    text-decoration:none !important;
+}
+.hero-title{
+    font-weight: 700 !important;
+}
+// Navigation
+.navbar{
+    background-color: #09f;
+}
+a.navbar-brand{
+    color:white !important;
+}
+a.navbar-brand:hover{
+    color:#ff0 !important;
+}
+#navbar-main .main-menu-item ul li .nav-link{
+    color:#ff6 !important;
+}
+#navbar-main .main-menu-item ul li .nav-link{
+    color:#ff0 !important;
+}
+.nav-link{
+    font-size:1.3em;
+}
+.nav-link:hover{
+    text-decoration:underline;
+}
+.fa-search:before {
+    color:#ff6 !important;
+}
+.fa-palette:before{
+    color:#ff6 !important;
+}
+// Documentation
+.docs-toc-link{
+    font-weight: 700 !important;
+}
+.docs-sidebar a{
+    font-family:'Roboto Condensed', sans-serif;
+    font-weight: 300;
+}
+.docs-sidebar a:hover{
+    font-family:'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    color:#09f !important;
+    text-decoration:underline;
+}
+.docs-toc{
+    font-family:'Roboto Condensed', sans-serif;
+    font-weight: 300;
+}
+// CTA
+.mybutton{
+background:    #ff6;
+border-radius: 11px;
+box-shadow:    0 0px #444444;
+padding:       18px 35px;
+color:         #0099ff;
+display:       inline-block;
+text-align:    center;
+text-shadow:   0px 0px #000000;
+font-weight:   bold;
+font-family:   Roboto;
+text-decoration:none !important;
+}
+.mybutton:hover{
+background:    yellow;
+border:        1px solid yellow;
+border-radius: 11px;
+box-shadow:    0px 0px 10px #0099ff;
+padding:       18px 35px;
+color:         #ffffff;
+display:       inline-block;
+text-align:    center;
+text-shadow:   0px 0px #000000;
+text-decoration:none !important;
+}
+a.mybutton{
+text-decoration:none !important;
+border:4px solid #09f !important;
+}
+a.mybutton:hover{
+color:#09f !important;
+border:4px solid yellow !important;
+}
+// alert
+div.alert.alert-note{
+    padding:0.75rem 1rem !important;
+    text-align:left;
+    font-family:"Roboto Condensed";
+    font-weight: 400 !important;
+}
+.alert-note ul{
+    padding-left:1.618rem !important;
+}
+div.alert.alert-warning{
+    font-family:"Roboto Condensed" !important;
+    font-weight: 400;
+}
+// content
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700 !important;
+}
+// author-card
+.media.author-card.content-widget-hr{
+    margin-top:2.618rem;
+    margin-bottom:2.618rem;
+    max-width: 760px !important;
+}
+.author-card .card-subtitle{
+    color:black;
+}
+img.portrait.mr-3{
+    width:120px !important;
+    height:120px !important;
+    border:1px solid #09f;
+}
+// sharethis
+.sharethis{
+    padding: 0rem 1rem 1rem !important;
+    background-color:#ff6;
+    max-width: 760px;
+    margin-top:5rem;
+    border:3px dashed #09f;
+}
+.sharethis:hover{
+    background-color:yellow;
+    max-width: 760px;
+    margin-top:5rem;
+}
+.pb-md-3, .py-md-3 {
+    padding-bottom:0 !important;
+}
+// Demo
+#demo .container{
+    max-width:777px;
+}
+
+// Site Footer
+.site-footer{
+    display:none !important;
+}
