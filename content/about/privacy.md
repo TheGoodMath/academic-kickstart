@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Privacy Policy
 linktitle: Privacy Policy
 share: false
