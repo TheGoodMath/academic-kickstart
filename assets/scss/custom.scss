@@ -11,6 +11,12 @@ b, strong{
 .home-section:first-of-type{
     background: #ffffff !important;
 }
+.dark .home-section{
+    //background-color:#333333 !important;
+}
+.dark .wg-hero{
+    background-color:#333333 !important;
+}
 .btn-primary cta-btns{
     padding:1.2em 1.618em !important;
     background-color:yellow;
@@ -115,6 +121,9 @@ div.alert.alert-warning{
 h1, h2, h3, h4, h5, h6{
     font-weight: 700 !important;
 }
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6{
+    color:#eee;
+}
 // author-card
 .media.author-card.content-widget-hr{
     margin-top:2.618rem;
@@ -152,6 +161,7 @@ img.portrait.mr-3{
 
 // Site Footer
 .site-footer{
+    display:none;
     padding:0;
     margin:0;
     //display:none !important;
