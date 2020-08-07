@@ -10,7 +10,7 @@
 
 [[main]]
   name = "Updates"
-  url = "GET-My-Updates/"
+  url = "updates/"
   weight = 2
 
 [[main]]
