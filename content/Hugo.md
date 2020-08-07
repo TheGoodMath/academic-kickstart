@@ -4,10 +4,6 @@ linktitle: Build on Hugo
 toc: true
 type: book
 draft: true
-menu:
-  mathematics:
-    parent: About
-    weight: 30
 ---
 Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
 

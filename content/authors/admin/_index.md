@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: "\"Good World IFF Good Math\"."
+role: "\"Good World IFF Good Math.\" "
 
 # Organizations/Affiliations
 #organizations:
@@ -18,7 +18,7 @@ role: "\"Good World IFF Good Math\"."
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Please, consider **sharing this post** if you liked it \:yum:.
+bio:
 
 interests:
 - Pure Mathematics

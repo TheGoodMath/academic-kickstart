@@ -1,0 +1,18 @@
+# Theme metadata
+name = "TheGoodMath"
+
+# Is theme light or dark?
+#light = true
+
+# Primary
+primary = "#09f"
+
+# Menu
+menu_primary = "#09f"
+menu_text = "#ff6"
+menu_text_active = "#ff6"
+menu_title = "#fff"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 247, 247)"

@@ -2,16 +2,12 @@
 title: The Natural Numbers
 linktitle: $\mathbb{N}$, The Natural Numbers
 toc: true
-type: docs
+type: book
 date: "2019-05-05T00:00:00+01:00"
 draft: false
-menu:
-  mathematics:
-    parent: The Numbers
-    weight: 10
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 1
+weight: 2
 ---
 ## Which are the Natural Numbers $\mathbb{N}$?
 The **Natural Numbers**, denoted by $\mathbb{N}$, are the counting numbers; that is,
