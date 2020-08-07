@@ -1,7 +1,7 @@
 ---
 draft: false
-title: Powered by the Academic Theme
+title: Powered by the Academic  
 linktitle: Powered by Academic
 toc: true
-type: book
+type: doc
 ---

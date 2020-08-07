@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: Build on Hugo
 linktitle: Build on Hugo
 toc: true
