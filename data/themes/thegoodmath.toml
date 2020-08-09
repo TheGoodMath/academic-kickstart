@@ -5,10 +5,10 @@ name = "TheGoodMath"
 #light = true
 
 # Primary
-primary = "#09f"
+primary = "#008CF0"
 
 # Menu
-menu_primary = "#09f"
+menu_primary = "#008CF0"
 menu_text = "#ff6"
 menu_text_active = "#ff6"
 menu_title = "#fff"
