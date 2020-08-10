@@ -58,13 +58,13 @@ GOOD WORLD ***if and only if*** GOOD MATH.
 **MISSION**:<br />
 - **Pure** Mathematics
 - **Applied** Mathematics
-- Mathematical **Philosophy**
+- Mathematics of **Philosophy**
 - **Statistics**
 {{% /alert %}}
-**START** learning the **Fundamentals** of **Mathematics** Now:
+**START** Learning the **Fundamentals** of **Mathematics** Now:
 <br />
 <br />
 <a class="mybutton" href="javascript:;" onclick="ml_webform_2362063('show')">GET My Updates :rocket:</a><br />
-<a class="hero-cta-alt pl-4" href="javascript:;" onclick="ml_webform_2362063('show')">GET My Updates Now :yum:</a>
+<a class="hero-cta-alt pl-4" href="javascript:;" onclick="ml_webform_2362063('show')">START Now - it's Free :yum:</a>
 <br />
 <br />
