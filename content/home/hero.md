@@ -20,8 +20,8 @@ hero_media = "TheGoodMath.png"
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "lightblue"
-  gradient_end = "lightblue"
+  gradient_start = "#3DA0F2"
+  gradient_end = "white"
   
   # Background image.
   # image = ""  # Name of image in `static/img/`.
