@@ -65,6 +65,6 @@ GOOD WORLD ***if and only if*** GOOD MATH.
 <br />
 <br />
 <a class="mybutton" href="javascript:;" onclick="ml_webform_2362063('show')">GET My Updates :rocket:</a><br />
-<a class="hero-cta-alt pl-4" href="javascript:;" onclick="ml_webform_2362063('show')">START Now - it's Free :yum:</a>
+<a class="hero-cta-alt pl-4" href="javascript:;" onclick="ml_webform_2362063('show')">START NOW - it's Free :yum:</a>
 <br />
 <br />
