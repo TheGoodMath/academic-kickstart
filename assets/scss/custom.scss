@@ -57,19 +57,19 @@ a.navbar-brand:hover{
     font-weight: 300;
 }
 .docs-sidebar a:hover{
-    font-weight: 300;
-    color:#75AADB !important;
+    font-weight: 400;
+    color:#6699ff !important;
     text-decoration:underline;
 }
 .docs-toc{
     font-weight: 300;
 }
 .docs-toc a:hover{
-    font-weight: 300;
+    font-weight: 400;
     text-decoration:underline !important;
 }
 .docs-toc-link{
-    font-weight: 700 !important;
+    font-weight: 400 !important;
 }
 // CTA
 .mybutton{
@@ -77,7 +77,7 @@ background:    #ff6;
 border-radius: 11px;
 box-shadow:    0 0px #444444;
 padding:       18px 35px;
-color:         #75AADB;
+color:         #6699ff;
 display:       inline-block;
 text-align:    center;
 font-weight:   bold;
@@ -87,7 +87,7 @@ text-decoration:none !important;
 background:    yellow;
 border:        1px solid yellow;
 border-radius: 11px;
-box-shadow:    0px 0px 10px #1E90FF;
+box-shadow:    0px 0px 10px #666666;
 padding:       18px 35px;
 color:         #ffffff;
 display:       inline-block;
@@ -121,6 +121,9 @@ h1, h2, h3, h4, h5, h6{
 .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6{
     color:#eee;
 }
+.article-style a{
+    font-weight: 700;
+}
 // author-card
 .media.author-card.content-widget-hr{
     margin-top:2.618rem;
@@ -128,7 +131,7 @@ h1, h2, h3, h4, h5, h6{
     max-width: 760px !important;
 }
 .author-card .card-title a{
-    color:#75AADB;
+    columns: #6699ff;;
 }
 .author-card .card-subtitle{
     color:black;
@@ -136,7 +139,7 @@ h1, h2, h3, h4, h5, h6{
 img.portrait.mr-3{
     width:120px !important;
     height:120px !important;
-    border:1px solid #1E90FF;
+    border:1px solid #6699ff;
 }
 // sharethis
 .sharethis{
@@ -144,7 +147,7 @@ img.portrait.mr-3{
     background-color:#ff6;
     max-width: 760px;
     margin-top:5rem;
-    border:3px dashed #1E90FF;
+    border:3px dashed #6699ff;
 }
 .sharethis:hover{
     background-color:yellow;
@@ -156,7 +159,7 @@ img.portrait.mr-3{
 }
 // Demo
 section#demo{
-    background-color:#1E90FF !important;
+    background-color:#6699ff !important;
 
 }
 #demo .container{
@@ -168,4 +171,7 @@ section#demo{
     padding:0;
     margin:0;
     //display:none !important;
+}
+.site-footer a{
+    font-weight: 400;
 }
