@@ -1,11 +1,11 @@
 ---
 title: 'GET My Updates'
-subtitle: 'Free Updates. Unsubscribe Anytime.'
+subtitle: 'Free. Private. Unsubscribe Anytime.'
 summary: GET My Updates. Free. Unsubscribe Anytime.
-authors:
-- admin
 featured: false
 draft: false
+commentable: false
+share : false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -24,3 +24,4 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+{{% getupdatespage %}}
