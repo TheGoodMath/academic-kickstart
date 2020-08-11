@@ -129,6 +129,10 @@ div.alert.alert-note{
     padding:0.75rem 1rem !important;
     text-align:left;
     font-weight: 400 !important;
+    border-color:#3da0f2;
+}
+div.alert>div:first-child::before{
+    color:#3DA0F2;
 }
 .alert-note ul{
     padding-left:1.618rem !important;
