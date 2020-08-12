@@ -281,7 +281,7 @@ plugins_js  = []
 ## Marketing
 ############################
 [marketing]
-  google_analytics = "233379503w"
+  google_analytics = "233379503"
 
 ############################
 ## Content Management System

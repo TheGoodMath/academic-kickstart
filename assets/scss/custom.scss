@@ -83,7 +83,6 @@ a.navbar-brand:hover{
     font-weight: 300;
 }
 .docs-toc a:hover{
-    font-weight: 400;
     text-decoration:underline !important;
 }
 .docs-toc-link{
@@ -121,6 +120,9 @@ border:5px solid #3DA0F2 !important;
 a.mybutton:hover{
 color:#3DA0F2 !important;
 border:5px solid yellow !important;
+}
+a.hero-cta-alt.pl-4{
+    padding-left:1.21rem !important;
 }
 //////////////////////////
 // alert
