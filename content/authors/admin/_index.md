@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: "\"Good World IFF Good Math.\" "
+role: "\"Good World iff Good Math.\" "
 
 # Organizations/Affiliations
 #organizations:
