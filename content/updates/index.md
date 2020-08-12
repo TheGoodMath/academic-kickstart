@@ -1,7 +1,7 @@
 ---
 title: 'GET My Updates'
 subtitle: 'Free. Private. Unsubscribe Anytime.'
-summary: GET My Updates. Free. Unsubscribe Anytime.
+summary: GET My Updates. Free. Private. Unsubscribe Anytime.
 featured: false
 draft: false
 commentable: false
