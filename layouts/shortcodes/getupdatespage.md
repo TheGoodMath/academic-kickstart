@@ -43,5 +43,5 @@
 <script>
   function ml_webform_success_2301916(){var r=ml_jQuery||jQuery;r(".ml-subscribe-form-2301916 .row-success").show(),r(".ml-subscribe-form-2301916 .row-form").hide()}
 </script>
-<img src="https://track.mailerlite.com/webforms/o/2301916/g1t2k6?v1597256931" width="1" height="1" style="max-width:1px;max-height:1px;visibility:hidden;padding:0;margin:0;display:block" alt="." border="0">
+<img src="https://track.mailerlite.com/webforms/o/2301916/g1t2k6?v1597259444" width="1" height="1" style="max-width:1px;max-height:1px;visibility:hidden;padding:0;margin:0;display:block" alt="." border="0">
 <script src="https://static.mailerlite.com/js/w/webforms.min.js?v5c5d99c28cfe49b41fe82455507d7558" type="text/javascript"></script>
