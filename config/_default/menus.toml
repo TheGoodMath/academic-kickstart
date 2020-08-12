@@ -5,12 +5,12 @@
 
 #[[main]]
  # name = "Start Here"
-  #url = "Start-Here/"
+  #url = "start-here/"
   #weight = 1
 
 [[main]]
   name = "Updates"
-  url = "Updates/"
+  url = "updates/"
   weight = 2
 
 #[[main]]
