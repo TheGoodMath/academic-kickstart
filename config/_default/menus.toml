@@ -9,12 +9,12 @@
   #weight = 1
 
 [[main]]
-  name = "<i class='fas fa-star'></i> Start Here"
+  name = "<i class='fas fa-star'></i>&nbsp;Start Here"
   url = "start-here/"
   weight = 1
 
 [[main]]
-  name = "<i class='fas fa-plus'></i> Updates</i>"
+  name = "<i class='fas fa-plus'></i>&nbsp;Updates</i>"
   url = "updates/"
   weight = 2
 
