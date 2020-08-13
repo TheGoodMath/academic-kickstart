@@ -58,8 +58,8 @@ GOOD WORLD **if and only if** GOOD MATH.
 **MISSION**:<br />
 - **Pure** Mathematics
 - **Applied** Mathematics
-- Mathematics of **Philosophy**
-- **Statistics**
+- **Tips & Tricks** in Mathematics
+- Math **Resourses**
 {{% /alert %}}
 **START** Learning the **Fundamentals** of **Mathematics** Now:
 <br />
