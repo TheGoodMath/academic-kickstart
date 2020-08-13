@@ -52,7 +52,7 @@ hero_media = "TheGoodMath.png"
 +++
 {{% alert note %}}
 **VISION**:<br />
-GOOD WORLD ***if and only if*** GOOD MATH.
+GOOD WORLD **if and only if** GOOD MATH.
 {{% /alert %}}
 {{% alert note %}}
 **MISSION**:<br />
