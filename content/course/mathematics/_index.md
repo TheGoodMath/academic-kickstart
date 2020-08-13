@@ -7,7 +7,7 @@ title: Start Here
 linktitle: Start Here
 
 # Page summary for search engines.
-summary: Start learning the fundamental of Mathematics now.
+summary: Start Learning the Fundamental of Mathematics now.
 
 # Date page published
 date: 2018-09-09
