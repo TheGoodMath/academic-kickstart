@@ -7,7 +7,7 @@ b, strong{
     font-weight: 700;
 }
 //////////////////////////
-// Home
+// HOME
 //////////////////////////
 .home-section:first-of-type{
     background: #ffffff !important;
@@ -29,7 +29,7 @@ b, strong{
     font-weight: 700 !important;
 }
 //////////////////////////
-// Navigation
+// NAVIGATION
 //////////////////////////
 a.navbar-brand{
     font-size:1.618em !important;
@@ -59,7 +59,7 @@ ul.nav-icons{
     font-size:0.8em;
 }
 //////////////////////////
-// Docs Sidebar
+// DOCS Sidebar
 //////////////////////////
 .docs-sidebar{
     background-color: #3da0f2;
@@ -80,7 +80,7 @@ ul.nav-icons{
     color:#ff6 !important;
 }
 //////////////////////////
-// Docs Table of content
+// DOCS Table of content
 //////////////////////////
 .docs-toc{
     font-weight: 300;
@@ -95,40 +95,40 @@ ul.nav-icons{
 // CTA
 //////////////////////////
 .mybutton{
-background:    #ff3;
-border-radius: 10px;
-box-shadow:    0 0px #ff3;
-padding:       15px 20px 20px 30px !important;
-color:         #3DA0F2;
-display:       inline-block;
-text-align:    center;
-font-weight:   bold;
-text-decoration:none !important;
+    background-color:#ff2d2b;
+    color:#ff3;
+    border-radius: 10px;
+    padding:       15px 20px 20px 30px !important;
+    display:       inline-block;
+    text-align:    center;
+    font-weight:   700;
+    text-decoration:none !important;
 }
 .mybutton:hover{
-background:    yellow;
-border:        1px solid yellow;
-border-radius: 10px;
-padding:       15px 20px 20px 30px !important;
-box-shadow:    0px 0px 10px #3DA0F2;
-padding:       18px 35px;
-display:       inline-block;
-text-align:    center;
-text-decoration:none !important;
+    background-color: red;
+    color:yellow;
+    border-radius: 10px;
+    padding:       15px 20px 20px 30px !important;
+    box-shadow:    0px 0px 10px #3DA0F2;
+    padding:       18px 35px;
+    display:       inline-block;
+    text-align:    center;
+    text-decoration:none !important;
 }
 a.mybutton{
-text-decoration:none !important;
-border:5px solid #3DA0F2 !important;
+    text-decoration:none !important;
+    border:5px solid #ff6 !important;
 }
 a.mybutton:hover{
-color:#3DA0F2 !important;
-border:5px solid yellow !important;
-}
+    text-decoration:underline!important;
+    color:yellow !important;
+    border:5px solid yellow !important;
+}   
 a.hero-cta-alt.pl-4{
     padding-left:1.21rem !important;
 }
 //////////////////////////
-// alert
+// ALERT
 //////////////////////////
 div.alert.alert-note{
     padding:0.75rem 1rem !important;
