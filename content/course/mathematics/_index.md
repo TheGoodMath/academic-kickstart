@@ -47,9 +47,10 @@ Since the website itself is continuously being updated, the best way for you to 
 
 {{% alert note %}}
 **Updates**:<br />
-- Theory
-- Examples
-- Exercices
+- You read Theory
+- You understand Examples
+- You solve Exercices
+- You create Exercices
 {{% /alert %}}
 
 ### Journey
@@ -99,12 +100,11 @@ If the **World** is good, then the **Mathematics** is good *(only if part)*.
 
 ## Mission
 {{% alert note %}}
-**MISSION**:
+**MISSION**:<br />
 - **Pure** Mathematics
 - **Applied** Mathematics
-- **Philosophy** of Mathematics
-- **Statistics**
-- More
+- **Tips & Tricks** in Mathematics
+- Math **Resourses**
 {{% /alert %}}
 My mission is to give a fun, rigourous, way you need to understand the fundamentals in pure mathematics, applied mathematics, statistics, and related content about math.
 
