@@ -30,6 +30,48 @@ b, strong{
     font-weight: 700 !important;
 }
 //////////////////////////
+// GOOGLE CUSTOM SEARCH
+//////////////////////////
+.gsc-control-cse{
+    border:0!important;
+    padding:0!important;
+}
+td.gsc-input {
+    padding:0;
+}
+//////////////////////////
+// BOOKMARK
+//////////////////////////
+#bookmark-this {
+    padding: 5px 10px;
+    background-color: #f0ad4e;
+    border: 1px solid #eea236;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+  }
+  
+  #bookmark-this:hover {
+    background-color: #ec971f;
+    border: 1px solid #d58512;
+    text-decoration: none;
+  }
+  
+  #bookmark-this:active {
+    background-color: #ec971f;
+    border: 1px solid #d58512;
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
+  }
+//////////////////////////
 // NAVIGATION
 //////////////////////////
 a.navbar-brand{
@@ -62,6 +104,9 @@ ul.nav-icons{
 //////////////////////////
 // DOCS Sidebar
 //////////////////////////
+.btn.docs-toggle.d-md-none.p-0.mr-3{
+    color:white !important;
+}
 .docs-sidebar{
     background-color: #3da0f2;
 }
@@ -91,6 +136,9 @@ ul.nav-icons{
 }
 .docs-toc-link{
     font-weight: 400 !important;
+}
+.d-none.d-xl-block.col-xl-2.docs-toc{
+    padding-left:0 !important;
 }
 //////////////////////////
 // CTA
@@ -151,19 +199,43 @@ div.alert.alert-warning{
     font-weight: 400;
 }
 //////////////////////////
-// content
+// CONTENT
 //////////////////////////
-h1, h2, h3, h4, h5, h6{
+h1{
+    margin-top:1rem!important;
     font-weight: 700 !important;
 }
-.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6{
+.dark h1{
+    margin-top:1rem!important;
+    font-weight: 700 !important;
+}
+h2, h3, h4, h5, h6{
+    font-weight: 700 !important;
+    margin-bottom:1rem;
+    margin-top:1.618rem;
+}
+.dark h2, .dark h3, .dark h4, .dark h5, .dark h6{
+    font-weight: 700 !important;
     color:#eee;
+    margin-bottom:1rem;
+    margin-top:1.618rem;
 }
 .article-style a{
     font-weight: 700;
 }
+ul{
+    margin-bottom:1.618rem;
+}
 //////////////////////////
-// author-card
+// BLOCKQUOTE
+//////////////////////////
+blockquote{
+    padding:.33em 1em !important;
+    margin-top:-0.618em !important;
+    margin-bottom:1.618em !important;
+}
+//////////////////////////
+// AUTHOR-CARD
 //////////////////////////
 .media.author-card.content-widget-hr{
     margin-top:2.618rem;
@@ -182,7 +254,7 @@ img.portrait.mr-3{
     border:1px solid #3DA0F2;
 }
 //////////////////////////
-// sharethis
+// SHARETHIS
 //////////////////////////
 .sharethis{
     padding: 0rem 1rem 1rem !important;
@@ -200,7 +272,7 @@ img.portrait.mr-3{
     padding-bottom:0 !important;
 }
 //////////////////////////
-// Demo
+// DEMO
 //////////////////////////
 section#demo{
     background-color:#3DA0F2 !important;
@@ -212,7 +284,7 @@ section#demo a{
     max-width:593px;
 }
 //////////////////////////
-// Site Footer
+// SITE FOOTER
 //////////////////////////
 .site-footer{
     padding:0;
