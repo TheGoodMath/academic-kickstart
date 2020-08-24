@@ -51,11 +51,11 @@ hero_media = "TheGoodMath.png"
 #  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 {{% alert note %}}
-**VISION**:<br />
+**VISION** <i class="fas fa-arrows-alt-h"></i><br />
 **Good World** *if and only if* **Good Math**.
 {{% /alert %}}
 {{% alert note %}}
-**MISSION**:<br />
+**MISSION** <i class="fas fa-bullseye"></i><br />
 To Learn the Beauty of the **Fundamentals** of:
 
 - **Pure** Mathematics
@@ -68,10 +68,5 @@ with the Help of:
 
 {{% /alert %}}
 <br />
-**START** Learning the **Fundamentals** of **Mathematics** Now:
-<br />
-<br />
-<a class="mybutton" href="javascript:;" onclick="ml_webform_2362063('show')"><i class="fas fa-plus"></i>&nbsp;GET My Updates</a><br />
-<a class="hero-cta-alt pl-4" href="javascript:;" onclick="ml_webform_2362063('show')">START NOW - it's Free :yum:</a>
-<br />
+<a class="mybutton" href="javascript:;" onclick="ml_webform_2362063('show')">START NOW <br /> GET My Updates</a>
 <br />

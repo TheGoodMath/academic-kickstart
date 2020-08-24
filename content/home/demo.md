@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
-title = "GET My Updates:"
+title = ""
 subtitle = ""
 
 [design]
@@ -50,4 +50,3 @@ subtitle = ""
  css_class = ""
 +++
 {{% getupdatesembedded %}}
-<a class="hero-cta-alt pl-4" href="javascript:;" onclick="ml_webform_2362063('show')">START NOW - Unsubscribe Anytime :yum:</a>
