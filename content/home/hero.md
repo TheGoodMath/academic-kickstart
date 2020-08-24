@@ -50,12 +50,12 @@ hero_media = "TheGoodMath.png"
 #[cta_note]
 #  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
+<h2>VISION <i class="fas fa-arrows-alt-h"></i></h2>
 {{% alert note %}}
-**VISION** <i class="fas fa-arrows-alt-h"></i><br />
 **Good World** *if and only if* **Good Math**.
 {{% /alert %}}
+<h2>MISSION <i class="fas fa-bullseye"></i></h2>
 {{% alert note %}}
-**MISSION** <i class="fas fa-bullseye"></i><br />
 To Learn The **Fundamentals** of:
 
 - **Pure** Mathematics
