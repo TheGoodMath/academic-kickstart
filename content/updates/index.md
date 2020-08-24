@@ -1,7 +1,6 @@
 ---
-title: 'GET My Updates'
-subtitle: 'Free. Private. Unsubscribe Anytime.'
-summary: GET My Updates. Free. Private. Unsubscribe Anytime.
+title: 'TheGoodMath+ Newsletter'
+summary: Get Updates. Free. Private. Unsubscribe Anytime.
 featured: false
 draft: false
 commentable: false
