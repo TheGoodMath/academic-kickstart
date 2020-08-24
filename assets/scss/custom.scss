@@ -104,7 +104,7 @@ a.navbar-brand{
     letter-spacing: 1px;
 }
 a.navbar-brand:hover{
-    color:#ff0 !important;
+    color:#ff3 !important;
 }
 .navbar .nav-link{
     color:#ff6 !important;
@@ -112,14 +112,14 @@ a.navbar-brand:hover{
  }
 .navbar .nav-link:hover{
    text-decoration:underline;
-   color:#ff0 !important;
+   color:#ff6 !important;
 }
 #navbar-main .main-menu-item ul li .nav-link{
-    color:#ff0;
+    color:#ff6;
     font-weight: 700 !important;
 }
 #navbar-main .main-menu-item ul li .nav-link:hover{
-    color:#ff0;
+    color:#ff6;
     font-weight: 700 !important;
 }
 ul.nav-icons{
@@ -142,7 +142,7 @@ ul.nav-icons{
 }
 .docs-sidebar a:hover{
     font-weight: 400;
-    color:#ff0 !important;
+    color:#ff3 !important;
     text-decoration:underline;
 }
 .docs-sidebar .nav > .active > a{
@@ -172,7 +172,7 @@ ul.nav-icons{
 //////////////////////////
 .mybutton{
     background-color:#ff2d2b;
-    color:#ff3;
+    color:#ff9;
     border-radius: 10px;
     padding:       13px 30px 17px 25px !important;
     display:       inline-block;
@@ -182,7 +182,7 @@ ul.nav-icons{
 }
 .mybutton:hover{
     background-color: red;
-    color:yellow;
+    color:#ff6;
     border-radius: 10px;
     padding:       13px 30px 17px 25px !important;
     box-shadow:    0px 0px 21px #3DA0F2;
@@ -193,12 +193,12 @@ ul.nav-icons{
 }
 a.mybutton{
     text-decoration:none !important;
-    border:5px solid #ff6 !important;
+    border:5px solid #ff9 !important;
 }
 a.mybutton:hover{
     text-decoration:underline!important;
-    color:yellow !important;
-    border:5px solid yellow !important;
+    color:#ff6 !important;
+    border:5px solid #ff6 !important;
 }   
 a.hero-cta-alt.pl-4{
     padding-left:0.618rem !important;
@@ -211,7 +211,7 @@ a:hover.hero-cta-alt.pl-4{
 // ALERT
 //////////////////////////
 div.alert.alert-note{
-    padding:0.75rem 1rem !important;
+    padding:1em 1em !important;
     margin-bottom:1.333rem !important;
     text-align:left;
     font-weight: 400 !important;
@@ -237,7 +237,8 @@ div.alert-warning > div:first-child::before{
 h1{
     font-weight: 700 !important;
     font-size:2.369rem !important;
-    margin-bottom:0.777em!important;
+    margin-bottom:1.333rem!important;
+    margin-top:1.333rem!important;
 }
 .dark h1{
     font-weight: 700 !important;
@@ -290,18 +291,23 @@ h4, h5, h6{
     margin-bottom:1em;
     margin-top:1.333em;
 }
+p{
+    margin-bottom:0.777em;
+}
 .article-style a{
     font-weight: 700;
 }
 ul{
+    padding-inline-start: 2.441em;
+    margin-bottom:1.333em;
 }
 //////////////////////////
 // BLOCKQUOTE
 //////////////////////////
 blockquote{
-    padding:.33em 1em !important;
-    margin-top:-0.618em !important;
-    margin-bottom:1.618em !important;
+    padding:.33em 0 .33em 1em !important;
+    margin-top:-0.777em !important;
+    margin-bottom:1em !important;
 }
 //////////////////////////
 // MATH $$ Mode
@@ -334,13 +340,13 @@ img.portrait.mr-3{
 //////////////////////////
 .sharethis{
     padding: 0rem 1rem 1rem !important;
-    background-color:#ff6;
+    background-color:#ff9;
     max-width: 760px;
     margin-top:5rem;
     border:3px dashed #3DA0F2;
 }
 .sharethis:hover{
-    background-color:yellow;
+    background-color:#ff6;
     max-width: 760px;
     margin-top:5rem;
 }
@@ -352,12 +358,13 @@ img.portrait.mr-3{
 //////////////////////////
 section#demo{
     background-color:#3DA0F2 !important;
+    padding:3.052em 1em 3.815em 1em !important;
 }
 section#demo a{
     text-decoration: underline;
 }
 #demo .container{
-    max-width:593px;
+    max-width:742px;
 }
 //////////////////////////
 // SITE FOOTER
