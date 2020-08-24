@@ -176,18 +176,22 @@ ul.nav-icons{
 .mybutton{
     background-color:#ff2d2b;
     color:#ff9;
-    border-radius: 10px;
-    padding:       13px 30px 17px 25px !important;
+    border-radius: 0.333em;
+    padding:       0.5em 0.7em 0.6em 0.7em !important;
     display:       inline-block;
     text-align:    center;
     font-weight:   700;
     text-decoration:none !important;
 }
+a.mybutton.br{
+    margin:10em !important;
+}
+ 
 .mybutton:hover{
     background-color: red;
     color:#ff6;
-    border-radius: 10px;
-    padding:       13px 30px 17px 25px !important;
+    border-radius: 0.333em;
+    padding:       0.5em 0.7em 0.6em 0.7em !important;
     box-shadow:    0px 0px 21px #3DA0F2;
     padding:       18px 35px;
     display:       inline-block;
