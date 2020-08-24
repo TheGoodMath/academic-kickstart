@@ -72,6 +72,30 @@ td.gsc-input {
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
   }
 //////////////////////////
+// ICONS
+//////////////////////////
+.fa-smile:before{
+    color:gold;
+}
+.fa-eye:before{
+    color:gold;
+}
+.fa-bullseye:before{
+    color:gold;
+}
+.fa-heart:before{
+    color:orange;
+}
+.fa-rocket:before{
+    color:#ff2d2d;
+}
+.fa-paper-plane:before{
+    color:#3da0f2;
+}
+.fa-bell:before{
+    color:orange;
+}
+//////////////////////////
 // NAVIGATION
 //////////////////////////
 a.navbar-brand{
@@ -129,9 +153,12 @@ ul.nav-icons{
 // DOCS Table of content
 //////////////////////////
 .docs-toc{
-    font-weight: 300;
+    font-weight: 400;
 }
 .docs-toc a:hover{
+    text-decoration:underline !important;
+}
+.docs-toc li a.active{
     text-decoration:underline !important;
 }
 .docs-toc-link{
@@ -194,7 +221,8 @@ div.alert>div:first-child::before{
     color:#3DA0F2;
 }
 .alert-note ul{
-    padding-left:1.618rem !important;
+    padding-left:1.777rem !important;
+    padding-bottom:0.333rem!important;
 }
 div.alert.alert-warning{
     font-weight: 400;
@@ -209,6 +237,7 @@ div.alert-warning > div:first-child::before{
 h1{
     font-weight: 700 !important;
     font-size:2.369rem !important;
+    margin-bottom:0.777em!important;
 }
 .dark h1{
     font-weight: 700 !important;
@@ -218,48 +247,53 @@ h1{
 }
 h2{
     font-weight: 700 !important;
-    margin-bottom:1rem;
-    margin-top:1.333rem!important;
+    margin-bottom:0.777em;
+    margin-top:1.333em!important;
     font-size:1.777rem!important;
 }
 .dark h2{
     font-weight: 700 !important;
-    margin-bottom:1rem;
+    margin-bottom:0.777rem;
     margin-top:1.333rem!important;
     font-size:1.777rem!important;
     color:#eee;
 }
+h2:first-of-type{
+    font-weight: 700 !important;
+    margin-bottom:0.777em;
+    margin-top:0!important;
+    font-size:1.777rem!important;
+}
 h3{
     font-size: 1.333em;
     font-weight: 700 !important;
-    margin-bottom:1rem;
-    margin-top:1.333rem;  
+    margin-bottom:0.777em;
+    margin-top:1.333em;  
 }
 .dark h3{
     font-size: 1.333em;
     font-weight: 700 !important;
     color:#eee;
-    margin-bottom:1rem;
-    margin-top:1.333rem;
+    margin-bottom:0.777em;
+    margin-top:1.333em;  
 }
 h4, h5, h6{
     font-size: 1em;
     font-weight: 700 !important;
-    margin-bottom:1rem;
-    margin-top:1.333rem;   
+    margin-bottom:1em;
+    margin-top:1.333em;   
 }
 .dark h4, .dark h5, .dark h6{
     font-size: 1em;
     font-weight: 700 !important;
     color:#eee;
-    margin-bottom:1rem;
-    margin-top:1.333rem;
+    margin-bottom:1em;
+    margin-top:1.333em;
 }
 .article-style a{
     font-weight: 700;
 }
 ul{
-    margin-bottom:1.618rem;
 }
 //////////////////////////
 // BLOCKQUOTE
