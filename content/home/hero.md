@@ -56,7 +56,7 @@ hero_media = "TheGoodMath.png"
 {{% /alert %}}
 {{% alert note %}}
 **MISSION** <i class="fas fa-bullseye"></i><br />
-To Learn the Beauty of the **Fundamentals** of:
+To Learn The **Fundamentals** of:
 
 - **Pure** Mathematics
 - **Applied** Mathematics
@@ -68,6 +68,6 @@ with the Help of:
 
 {{% /alert %}}
 <br />
-<a class="mybutton" href="javascript:;" onclick="ml_account('webforms', '2301916', 'g1t2k6', 'show')">START NOW <br /> GET My Updates</a>
+<a class="mybutton" href="javascript:;" onclick="ml_account('webforms', '2301916', 'g1t2k6', 'show')">START NOW : GET My Updates</a>
 <br />
 <br />
