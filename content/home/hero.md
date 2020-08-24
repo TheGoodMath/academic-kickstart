@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "THE GOOD MATH"
+title = "TheGoodMath"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "TheGoodMath.png"
@@ -68,5 +68,6 @@ with the Help of:
 
 {{% /alert %}}
 <br />
-<a class="mybutton" href="javascript:;" onclick="ml_webform_2362063('show')">START NOW <br /> GET My Updates</a>
+<a class="mybutton" href="javascript:;" onclick="ml_account('webforms', '2301916', 'g1t2k6', 'show')">START NOW <br /> GET My Updates</a>
+<br />
 <br />
