@@ -17,7 +17,7 @@ b, strong{
 }
 .btn-primary cta-btns{
     padding:1.2em 1.618em !important;
-    background-color:#ff3;
+    background-color:#ff6;
     text-decoration:none !important;
     color:black;
     font-weight: bold;
@@ -104,7 +104,7 @@ a.navbar-brand{
     letter-spacing: 1px;
 }
 a.navbar-brand:hover{
-    color:#ff3 !important;
+    color:#ff6 !important;
 }
 .navbar .nav-link{
     color:#ff6 !important;
@@ -142,7 +142,7 @@ ul.nav-icons{
 }
 .docs-sidebar a:hover{
     font-weight: 400;
-    color:#ff3 !important;
+    color:#ff6 !important;
     text-decoration:underline;
 }
 .docs-sidebar .nav > .active > a{
@@ -358,7 +358,7 @@ img.portrait.mr-3{
 //////////////////////////
 section#demo{
     background-color:#3DA0F2 !important;
-    padding:3.052em 1em 3.815em 1em !important;
+    padding:3.052em 0.25em 3.815em 0.25em !important;
 }
 section#demo a{
     text-decoration: underline;
