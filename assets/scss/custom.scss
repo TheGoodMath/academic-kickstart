@@ -17,7 +17,7 @@ b, strong{
 }
 .btn-primary cta-btns{
     padding:1.2em 1.618em !important;
-    background-color:#ff6;
+    background-color:#ff9;
     text-decoration:none !important;
     color:black;
     font-weight: bold;
@@ -107,7 +107,7 @@ a.navbar-brand:hover{
     color:#ff6 !important;
 }
 .navbar .nav-link{
-    color:#ff6 !important;
+    color:#ff9 !important;
     font-size: 1.618em;
  }
 .navbar .nav-link:hover{
@@ -115,7 +115,7 @@ a.navbar-brand:hover{
    color:#ff6 !important;
 }
 #navbar-main .main-menu-item ul li .nav-link{
-    color:#ff6;
+    color:#ff9;
     font-weight: 700 !important;
 }
 #navbar-main .main-menu-item ul li .nav-link:hover{
@@ -147,7 +147,7 @@ ul.nav-icons{
 }
 .docs-sidebar .nav > .active > a{
     font-weight: 700;
-    color:#ff6 !important;
+    color:#ff9 !important;
 }
 //////////////////////////
 // DOCS Table of content
@@ -239,6 +239,7 @@ h1{
     font-size:2.369rem !important;
     margin-bottom:1.333rem!important;
     margin-top:1.333rem!important;
+    text-align:center;
 }
 .dark h1{
     font-weight: 700 !important;
