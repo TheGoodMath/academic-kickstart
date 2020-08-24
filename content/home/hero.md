@@ -50,22 +50,13 @@ hero_media = "TheGoodMath.png"
 #[cta_note]
 #  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
-<h2>VISION <i class="fas fa-arrows-alt-h"></i></h2>
+<h2>TheGoodMath's Vision <i class="fas fa-arrows-alt-h"></i></h2>
 {{% alert note %}}
 **Good World** *if and only if* **Good Math**.
 {{% /alert %}}
-<h2>MISSION <i class="fas fa-bullseye"></i></h2>
+<h2>TheGoodMath's Mission <i class="fas fa-bullseye"></i></h2>
 {{% alert note %}}
-To Learn The **Fundamentals** of:
-
-- **Pure** Mathematics
-- **Applied** Mathematics
-
-with the Help of:
-
-- **Tips & Tricks** in Mathematics
-- Math(s) **Resources**
-
+To Learn ***The Fundamentals of Mathematics***.
 {{% /alert %}}
 <br />
 <a class="mybutton" href="javascript:;" onclick="ml_account('webforms', '2301916', 'g1t2k6', 'show')">START NOW <br /> GET My Updates</a>
