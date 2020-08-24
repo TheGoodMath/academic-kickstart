@@ -56,11 +56,18 @@ hero_media = "TheGoodMath.png"
 {{% /alert %}}
 {{% alert note %}}
 **MISSION**:<br />
+To Learn the Beauty of the **Fundamentals** of:
+
 - **Pure** Mathematics
 - **Applied** Mathematics
+
+with the Help of:
+
 - **Tips & Tricks** in Mathematics
-- Math **Resourses**
+- Math(s) **Resources**
+
 {{% /alert %}}
+<br />
 **START** Learning the **Fundamentals** of **Mathematics** Now:
 <br />
 <br />
