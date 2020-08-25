@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 2  # Order that this section will appear.
 
-title = ""
+title = "Vision & Mission"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "TheGoodMath.png"
@@ -50,17 +50,16 @@ hero_media = "TheGoodMath.png"
 #[cta_note]
 #  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
-<h2>TheGoodMath's Vision <i class="fas fa-arrows-alt-h"></i></h2>
+## TheGoodMath's Vision {{< icon name="arrows-alt-h" pack="fas" >}}
+
 {{% alert note %}}
 **Good World** *if and only if* **Good Math**.
 {{% /alert %}}
-<h2>TheGoodMath's Mission <i class="fas fa-bullseye"></i></h2>
+
+## TheGoodMath's Mission {{< icon name="bullseye" pack="fas" >}}
+
 {{% alert note %}}
 To Learn ***The Fundamentals of Mathematics***.
 {{% /alert %}}
-<br />
-<br />
+
 <a class="mybutton" href="javascript:;" onclick="ml_account('webforms', '2301916', 'g1t2k6', 'show')">START NOW <br /> GET My Updates</a>
-<br />
-<br />
-<br />

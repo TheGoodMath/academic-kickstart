@@ -9,7 +9,13 @@ b, strong{
 //////////////////////////
 // HOME
 //////////////////////////
-.hero-lead h2, .hero-title, .hero-lead h2:first-of-type{
+.hero-title{
+    color:white;
+    font-size: 2.618rem!important;
+    margin-bottom:0.618em!important;
+    text-align:center;
+}
+.hero-lead h2, .hero-lead h2:first-of-type{
     color:white;
     text-align:left;
 }
@@ -219,8 +225,6 @@ div.alert-warning > div:first-child::before{
 //////////////////////////
 // ARTICLE
 //////////////////////////
-.article{
-}
 .article-metadata{
     display:none;
 }
@@ -392,4 +396,7 @@ section#demo a{
 }
 .site-footer a{
     font-weight: 400;
+}
+.footer p{
+    margin-bottom:0.333em;
 }
