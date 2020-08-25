@@ -42,7 +42,7 @@ b, strong{
 //////////////////////////
 .bookmark{
     margin:0;
-    color:#f9f9f9;
+    color:#ededed;
     font-size:0.777em;
     padding:0.555rem 0 0.222rem 0;
     text-align:center;
@@ -74,6 +74,12 @@ b, strong{
 }
 .fa-bell:before{
     color:orange;
+}
+.fa-bars:before{
+    color:yellow;
+}
+.fa-chevron-up:before{
+    color:#1f5079;
 }
 //////////////////////////
 // NAVIGATION
@@ -354,8 +360,11 @@ img.portrait.mr-3{
     padding-bottom:0 !important;
 }
 //////////////////////////
-// DEMO
+// Widget
 //////////////////////////
+.wg-hero{
+    padding-bottom:0;
+}
 section#demo{
     background-color:#3DA0F2 !important;
     padding:3.052em 0.25em 0em 0.25em !important;
@@ -367,12 +376,18 @@ section#demo a{
 #demo .container{
     max-width:777px;
 }
+.home-section.wg-featurette{
+    padding:0 0 3.815em 0;
+}
 //////////////////////////
 // SITE FOOTER
 //////////////////////////
+.body-footer {
+    display:none;
+}
 .site-footer{
     padding:0;
-    margin:0;
+    margin:1.618em 0 1em 0;
     //display:none !important;
 }
 .site-footer a{
