@@ -16,7 +16,7 @@
 theme = "thegoodmath"
 
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
 
 # Override the theme's font set (optional).
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
@@ -245,14 +245,14 @@ plugins_js  = []
   #   0: No search engine
   #   1: Academic (built-in)
   #   2: Algolia (https://www.algolia.com)
-  engine = 2
+  engine = 1
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
   [search.algolia]
-    app_id = "6XPRJDP62I"
-    api_key = "3f8ee830e534eb993e9e8566105bc671"
-    index_name = "TheGoodMath"
+    app_id = ""
+    api_key = ""
+    index_name = ""
     show_logo = false
 
 ############################
