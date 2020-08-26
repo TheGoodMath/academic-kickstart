@@ -18,6 +18,8 @@ b, strong{
 .hero-lead h2, .hero-lead h2:first-of-type{
     color:white;
     text-align:left;
+    font-size:1.618rem!important;
+    margin-bottom:0.618rem!important;
 }
 .hero-lead h2 .fa-bullseye:before{
     color:white;
@@ -366,8 +368,12 @@ img.portrait.mr-3{
 //////////////////////////
 // Widget
 //////////////////////////
-.wg-hero{
+.wg-hero .hero-lead a{
     padding-bottom:0;
+    margin:2.618rem 0 !important;
+}
+.wg-hero p{
+    margin-bottom:0 !important;
 }
 section#demo{
     background-color:#3DA0F2 !important;
