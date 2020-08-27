@@ -12,7 +12,7 @@ b, strong{
 .hero-title{
     color:white;
     font-size: 2.618rem!important;
-    margin-bottom:0.618em!important;
+    margin-bottom:1em!important;
     text-align:center;
 }
 .hero-lead h2, .hero-lead h2:first-of-type{
@@ -84,7 +84,7 @@ b, strong{
     color:orange;
 }
 .fa-bars:before{
-    color:yellow;
+    color:#ff6;
 }
 .fa-chevron-up:before{
     color:#1f5079;
@@ -227,8 +227,13 @@ div.alert-warning > div:first-child::before{
 //////////////////////////
 // ARTICLE
 //////////////////////////
+.article{
+    background-image: linear-gradient(#3DA0F2, white);
+}
+.article-syle{
+    background:white !important;
+}
 .article-metadata{
-    display:none;
 }
 .article-container{
     padding:0 0.333em;
@@ -306,9 +311,6 @@ h4, h5, h6{
 p{
     margin-bottom:0.777em;
 }
-.article-style a{
-    font-weight: 700;
-}
 ul{
     padding-inline-start: 2.441em;
     margin-bottom:1.333em;
@@ -370,14 +372,14 @@ img.portrait.mr-3{
 //////////////////////////
 .wg-hero .hero-lead a{
     padding-bottom:0;
-    margin:2.618rem 0 !important;
+    margin: 2.618rem 0 1.618em 0 !important;
 }
 .wg-hero p{
     margin-bottom:0 !important;
 }
 section#demo{
     background-color:#3DA0F2 !important;
-    padding:3.052em 0.25em 0em 0.25em !important;
+    padding:4.236em 0.25em !important;
     min-height: 380px;
 }
 section#demo a{
@@ -393,7 +395,6 @@ section#demo a{
 // SITE FOOTER
 //////////////////////////
 .body-footer {
-    display:none;
 }
 .site-footer{
     padding:0;

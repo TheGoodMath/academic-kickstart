@@ -62,4 +62,4 @@ hero_media = "TheGoodMath.png"
 To Learn ***The Fundamentals of Mathematics***.
 {{% /alert %}}
 
-<a class="mybutton" href="javascript:;" onclick="ml_account('webforms', '2301916', 'g1t2k6', 'show')">START NOW <br /> GET My Updates</a>
+<a class="mybutton" href="javascript:;" onclick="ml_account('webforms', '2301916', 'g1t2k6', 'show')">START NOW <br/> GET My Updates</a>
