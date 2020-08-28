@@ -71,6 +71,12 @@ b, strong{
 .fa-heart:before{
     color:orange;
 }
+.hero-lead .fa-arrows-alt-h:before{
+    color:white;
+}
+.fa-arrows-alt-h:before{
+    color:gold;
+}
 .fa-rocket:before{
     color:#ff2d2d;
 }
@@ -78,7 +84,7 @@ b, strong{
     color:#ff6;
 }
 .fa-paper-plane:before{
-    color:#3da0f2;
+    color:gold;
 }
 .fa-bell:before{
     color:orange;
@@ -194,28 +200,31 @@ a.mybutton:hover{
     border:0.25em solid #ff6 !important;
 }
 .mybuttonstayupdated{
-    background-color:#white;
-    color:#3DA0F2;
+    font-size:1.25rem;
+    color:#ff6;
     border-radius: 0.333em;
-    padding:       0.5em 1em 0.6em 1em !important;
+    padding:       0.4em 0.9em 0.45em 0.9em !important;
+    box-shadow:    0px 0px 1px #3DA0F2;
     display:       inline-block;
     text-align:    center;
     font-weight:   700!important;
     text-decoration:none !important;
+    margin:1em 0 0.618em 0!important;
 } 
 .mybuttonstayupdated:hover{
-    background-color: #ff6;
-    color:#3DA0F2;
     border-radius: 0.333em;
-    box-shadow:    0px 0px 1em #3da0f2;
+    box-shadow:    0px 0px 1px #3DA0F2;
     display:       inline-block;
     text-align:    center;
     text-decoration:none !important;
+    background-color:#ff6!important;
 }
 a.mybuttonstayupdated{
     text-decoration:none !important;
     border:0.25em solid #3DA0F2 !important;
+    background-color:white !important;
     margin:1em 0 0 0;
+    color:#3DA0F2
 }
 a.mybuttonstayupdated:hover{
     color:#3DA0F2 !important;
@@ -228,7 +237,7 @@ a.hero-cta-alt.pl-4{
 a:hover.hero-cta-alt.pl-4{
     font-weight: 700;
 }
-#mlb2-2433250.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button{
+#mlb2-2433250.ml-form-embedContainer button{
     border:3px solid #ff6 !important;
 }
 //////////////////////////
@@ -265,7 +274,11 @@ div.alert-warning > div:first-child::before{
     background:white !important;
 }
 .article-container{
+    max-width:777px;
     padding:0 0.333em;
+}
+.article-metadata{
+    display:none;
 }
 //////////////////////////
 // DOCS Content

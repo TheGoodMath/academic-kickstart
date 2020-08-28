@@ -18,9 +18,9 @@
       {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
     {{ end }}
     {{ with site.GetPage "terms.md" }}
-      {{ if site.GetPage "privacy.md" }} &middot; {{ end }}
+      {{ if site.GetPage "privacy.md" }} and {{ end }}
       {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
-    {{ end }}
+    {{ end }} Powered by <a href="http://iubenda.refr.cc/7RC9K85">iubenda</a>
   </p>
   {{ end }}
 
