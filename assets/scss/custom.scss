@@ -192,13 +192,44 @@ a.mybutton:hover{
     text-decoration:underline!important;
     color:#ff6 !important;
     border:0.25em solid #ff6 !important;
-}   
+}
+.mybuttonstayupdated{
+    background-color:#white;
+    color:#3DA0F2;
+    border-radius: 0.333em;
+    padding:       0.5em 1em 0.6em 1em !important;
+    display:       inline-block;
+    text-align:    center;
+    font-weight:   700!important;
+    text-decoration:none !important;
+} 
+.mybuttonstayupdated:hover{
+    background-color: #ff6;
+    color:#3DA0F2;
+    border-radius: 0.333em;
+    box-shadow:    0px 0px 1em #3da0f2;
+    display:       inline-block;
+    text-align:    center;
+    text-decoration:none !important;
+}
+a.mybuttonstayupdated{
+    text-decoration:none !important;
+    border:0.25em solid #3DA0F2 !important;
+    margin:1em 0 0 0;
+}
+a.mybuttonstayupdated:hover{
+    color:#3DA0F2 !important;
+    border:0.25em solid #3DA0F2 !important;
+} 
 a.hero-cta-alt.pl-4{
     padding-left:0.618rem !important;
     font-weight: 400;
 }
 a:hover.hero-cta-alt.pl-4{
     font-weight: 700;
+}
+#mlb2-2433250.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button{
+    border:3px solid #ff6 !important;
 }
 //////////////////////////
 // ALERT
@@ -228,12 +259,10 @@ div.alert-warning > div:first-child::before{
 // ARTICLE
 //////////////////////////
 .article{
-    background-image: linear-gradient(#3DA0F2, white);
+    min-height: 1000px!important;
 }
 .article-syle{
     background:white !important;
-}
-.article-metadata{
 }
 .article-container{
     padding:0 0.333em;
@@ -260,7 +289,6 @@ h1{
 .dark h1{
     font-weight: 700 !important;
     font-size:2.369rem !important;
-    color:#eee;
 
 }
 h2{
@@ -368,19 +396,22 @@ img.portrait.mr-3{
     padding-bottom:0 !important;
 }
 //////////////////////////
-// Widget
+// WIDGET
 //////////////////////////
-.wg-hero .hero-lead a{
+#hero{
+    padding:0!important;
+}
+.hero-lead a{
     padding-bottom:0;
-    margin: 2.618rem 0 1.618em 0 !important;
+    margin: 4.236rem 0 2.618em 0 !important;
 }
 .wg-hero p{
     margin-bottom:0 !important;
 }
 section#demo{
     background-color:#3DA0F2 !important;
-    padding:4.236em 0.25em !important;
-    min-height: 380px;
+    padding:4.236em 0.25em 4.236em 0.25em !important;
+    min-height: 495px;
 }
 section#demo a{
     text-decoration: underline;
@@ -389,16 +420,18 @@ section#demo a{
     max-width:777px;
 }
 .home-section.wg-featurette{
-    padding:0 0 3.815em 0;
+    margin-top:2.618em;
+    padding:0;
 }
 //////////////////////////
 // SITE FOOTER
 //////////////////////////
-.body-footer {
-}
 .site-footer{
-    padding:0;
-    margin:1.618em 0 1em 0;
+    display:block;
+    padding:1em 0 0 0 !important;
+    border-top:1px solid #c5e3fb!important;
+    margin:6.854em 0 4.236em 0;
+    text-align:center;
     //display:none !important;
 }
 .site-footer a{
