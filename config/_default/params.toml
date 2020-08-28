@@ -300,4 +300,4 @@ plugins_js  = []
 ############################
 ## Copyright
 ############################
-  copyright_license = {enable = false, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
+  copyright_license = {enable = false, allow_derivatives = true, share_alike = true, allow_commercial = true, notice = "This work is licensed under {license}"}
