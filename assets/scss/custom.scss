@@ -7,6 +7,24 @@ b, strong{
     font-weight: 700;
 }
 //////////////////////////
+// BAR
+//////////////////////////
+/* width */
+/* Handle */
+/* width */
+::-webkit-scrollbar {
+    width: 0.618em;
+  }
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #3da0f2; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ff6; 
+    border-radius: 10px;
+} 
+//////////////////////////
 // HOME
 //////////////////////////
 .hero-title{
@@ -209,7 +227,7 @@ a.mybutton:hover{
     text-align:    center;
     font-weight:   700!important;
     text-decoration:none !important;
-    margin:1em 0 0.618em 0!important;
+    margin:0.9em 0 0.85em 0!important;
 } 
 .mybuttonstayupdated:hover{
     border-radius: 0.333em;
@@ -267,12 +285,8 @@ div.alert-warning > div:first-child::before{
 //////////////////////////
 // ARTICLE
 //////////////////////////
-.article{
-    min-height: 1000px!important;
-}
-.article-syle{
-    border-radius:1em;
-    background:white !important;
+article{
+    min-height: 777px!important;
 }
 .article-container{
     max-width:777px;
@@ -280,6 +294,10 @@ div.alert-warning > div:first-child::before{
 }
 .article-metadata{
     display:none;
+}
+.article-style{
+    background-color: white !important;
+    padding: 0.25em !important;
 }
 //////////////////////////
 // DOCS Content
@@ -438,6 +456,9 @@ section#demo a{
     margin-top:2.618em;
     padding:0;
 }
+.featurette h1{
+    margin-top:0!important;
+}
 .featurette h3{
     font-size:1.777em;
 }
@@ -449,9 +470,9 @@ section#demo a{
 //////////////////////////
 .site-footer{
     display:block;
-    padding:1em 0 0 0 !important;
+    padding:1.618em 0 0 0 !important;
     border-top:1px solid #c5e3fb!important;
-    margin:6.854em 0 4.236em 0;
+    margin:7.451em 0 5.96em 0;
     text-align:center;
     //display:none !important;
 }

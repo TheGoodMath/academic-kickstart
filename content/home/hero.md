@@ -50,13 +50,12 @@ hero_media = "TheGoodMath.png"
 #[cta_note]
 #  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
-## TheGoodMath's Vision {{< icon name="arrows-alt-h" pack="fas" >}}
-
+## TheGoodMath's Vision :eye_speech_bubble:
 {{% alert note %}}
 **Good World** *if and only if* **Good Math(s)**.
 {{% /alert %}}
 
-## TheGoodMath's Mission {{< icon name="bullseye" pack="fas" >}}
+## TheGoodMath's Mission :fire:
 
 {{% alert note %}}
 To Learn **The Fundamentals of Mathematics**.
