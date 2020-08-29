@@ -438,6 +438,12 @@ section#demo a{
     margin-top:2.618em;
     padding:0;
 }
+.featurette h3{
+    font-size:1.777em;
+}
+.featurette p{
+    font-size:1.333em;
+}
 //////////////////////////
 // SITE FOOTER
 //////////////////////////
@@ -452,8 +458,9 @@ section#demo a{
 .site-footer a{
     font-weight: 400;
 }
-.footer p{
+.site-footer p{
     margin-bottom:0.333em;
+    font-size:0.95rem !important;
 }
 #creativecommons{
     display:block;
