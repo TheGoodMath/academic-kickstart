@@ -53,13 +53,13 @@ hero_media = "TheGoodMath.png"
 ## TheGoodMath's Vision {{< icon name="arrows-alt-h" pack="fas" >}}
 
 {{% alert note %}}
-**Good World** *if and only if* **Good Math**.
+**Good World** *if and only if* **Good Math(s)**.
 {{% /alert %}}
 
 ## TheGoodMath's Mission {{< icon name="bullseye" pack="fas" >}}
 
 {{% alert note %}}
-To Learn ***The Fundamentals of Mathematics***.
+To Learn **The Fundamentals of Mathematics**.
 {{% /alert %}}
 
 <a class="mybutton" href="javascript:;" onclick="ml_account('webforms', '2301916', 'g1t2k6', 'show')">START NOW <br/> GET My Updates</a>
