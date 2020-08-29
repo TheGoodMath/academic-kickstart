@@ -1,28 +1,29 @@
 <footer class="site-footer">
-   <!--Start Last Updated-->
-   <p class="powered-by">
-<a href="https://TheGoodMath.com">TheGoodMath</a> | <a href="https://TheGoodMath.com/start-here">Start Here</a>
-  </p>
-    <!--End Last Updated-->
+<!--Start Menu-->
+<p class="powered-by">
+  <a href="https://TheGoodMath.com">TheGoodMath</a> | <a href="https://TheGoodMath.com/start-here">Start Here</a>
+</p>
+<!--End Menu-->
+<!--Start Last Updated-->
+<p class="powered-by">Last Updated on 29 August 2020
+</p>
+<!--Start Privacy and Terms-->
+<p class="powered-by">
+  <a href="https://www.iubenda.com/privacy-policy/35582170" class="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>,
+  <a href="https://www.iubenda.com/terms-and-conditions/35582170" class="iubenda-nostyle no-brand iubenda-embed" title="Terms and Conditions ">Terms and Conditions</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>, and
+  <a href="https://www.iubenda.com/privacy-policy/35582170/cookie-policy" class="iubenda-nostyle no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+powered by <a href="http://iubenda.refr.cc/7RC9K85">iubenda</a>
+</p>
+<!--End Privacy and Terms-->
+
+<!--End Last Updated-->
   <p class="powered-by">
     {{ if not site.Params.i_am_a_sponsor }}
     Published with
     <a href="https://TheGoodMath.com/academic/" target="_blank" rel="noopener">Academic Website Builder</a>
     {{ end }}
+</p>
 
-  </p>
-
-  {{ if or (site.GetPage "terms.md") (site.GetPage "privacy.md") }}
-  <p class="powered-by">
-    {{ with site.GetPage "privacy.md" }}
-      {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
-    {{ end }}
-    {{ with site.GetPage "terms.md" }}
-      {{ if site.GetPage "privacy.md" }} and {{ end }}
-      {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
-    {{ end }} powered by <a href="http://iubenda.refr.cc/7RC9K85">iubenda</a>
-  </p>
-  {{ end }}
 
   <p class="powered-by">
     {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}}{{ end }}
