@@ -1,14 +1,18 @@
 <footer class="site-footer">
+
+
 <!--Start Menu-->
 <p class="powered-by">
   <a href="https://TheGoodMath.com">TheGoodMath</a> | <a href="https://TheGoodMath.com/start-here">Start Here</a>
 </p>
 <!--End Menu-->
 
+
 <!--Start Last Updated-->
 <p class="powered-by">Last Updated on 29 August 2020
 </p>
 <!--End Last Updated-->
+
 
 <!--Start Privacy and Terms-->
 <p class="powered-by">
@@ -30,6 +34,8 @@ powered by <a href="http://iubenda.refr.cc/7RC9K85">iubenda</a>
   <p class="powered-by">
     {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}}{{ end }}
   </p>
+
+
   <!--Start Creative Commons-->
   <div id="creativecommons">
   <p class="powered-by">
@@ -41,8 +47,25 @@ powered by <a href="http://iubenda.refr.cc/7RC9K85">iubenda</a>
   {{/* Display copyright license. */}}
 
   {{ partial "site_footer_license" . }}
-<!--Start Don't display chevron
-  <p class="powered-by">
+
+
+
+
+<!--Start My Button-->
+<p class="powered-by">
+  <a class="mybuttonstayupdated" href="javascript:;" onclick="ml_account('webforms', '2301916', 'g1t2k6', 'show')">STAY UPDATED</a>
+</p>
+<!--End My Button-->
+
+
+<!--Start Plus AddThis-->
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<p class="powered-by">
+  <div class="addthis_inline_share_toolbox_0icm"></div>
+</p>
+ <!--End Plus AddThis-->
+
+ <p class="powered-by">
   {{ if not (in (slice "docs" "updates") .Type) }}
   <span class="float-right" aria-hidden="true">
     <a href="#" class="back-to-top">
@@ -53,18 +76,6 @@ powered by <a href="http://iubenda.refr.cc/7RC9K85">iubenda</a>
   </span>
   {{ end }}
   </p>
--->
-<!--Start My Button-->
-<p class="powered-by">
-  <a class="mybuttonstayupdated" href="javascript:;" onclick="ml_account('webforms', '2301916', 'g1t2k6', 'show')">STAY UPDATED</a>
-</p>
-<!--End My Button-->
-
-<!--Start Plus AddThis-->
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<p class="powered-by">
-  <div class="addthis_inline_share_toolbox_0icm"></div>
-</p>
- <!--End Plus AddThis-->
-          
+     
+ 
 </footer>
