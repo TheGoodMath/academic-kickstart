@@ -1,6 +1,6 @@
 ---
-title: TheGoodMath+ Newsletter
-summary: Get Updates. Free. Private. No Spam. Unsubscribe Anytime.
+title: TheGoodMath+
+summary: Free. Private. No Spam. Unsubscribe Anytime. GET My Updates
 featured: false
 draft: false
 commentable: false

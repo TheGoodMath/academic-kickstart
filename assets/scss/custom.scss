@@ -16,18 +16,16 @@ b, strong{
   }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #1f5079;
-    border-radius: 10px;
-    border:1px solid #3DA0F2;
+    background-image: linear-gradient(#ffc, #ff9);
+    border-radius: 0.25em;
+    border:0.1em solid #3da0f2;
 }
 ::-webkit-scrollbar-thumb:hover {
     background: #ff3; 
-    border-radius: 10px;
 } 
 ::-webkit-scrollbar-track{
     background-image: linear-gradient(#3DA0F2, #fff);
 }
-
 //////////////////////////
 // HOME
 //////////////////////////
@@ -142,7 +140,57 @@ a.navbar-brand:hover{
     font-weight: 700 !important;
 }
 ul.nav-icons{
-    font-size:0.8em;
+    padding:0!important;
+    margin:0!important;
+    width:7em!important;
+}
+.navbar-collapse{
+}
+//////////////////////////
+// Google Search
+//////////////////////////
+#GoogleSearch{
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:2.618em;
+    padding-right:2.618em;
+    margin-top:-1px;
+}
+.form-control{
+    max-width: 950px;
+    margin-left:auto;
+    margin-right: auto;
+    border-left:1px solid #50aaf3;
+    border-right:1px solid #50aaf3;
+    border-bottom:1px solid #50aaf3;
+    border-top:1px solid #50aaf3;
+    border-radius:0 0 7px 7px;
+    color:#3da0f2;
+}
+input.form-control{
+    color:#3da0f2 !important;
+}
+::placeholder{
+    color:#3da0f2 !important;
+}
+.gsc-control-cse.gsc-control-cse-en {
+    padding: 0;
+    margin: 0;
+}
+.gsc-above-wrapper-area{
+    background-color: white !important;
+    border-top: none;
+    border-bottom: 1px solid #ccc;
+}
+table.gsc-above-wrapper-area-container {
+    margin: 0;
+    padding: 0;
+}
+td.gsc-result-info-container {
+    background-color: white!important;
+    border: none;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 //////////////////////////
 // DOCS Sidebar
@@ -287,7 +335,7 @@ div.alert-warning > div:first-child::before{
 // ARTICLE
 //////////////////////////
 article{
-    min-height: 777px!important;
+    min-height: 333px!important;
 }
 .article-container{
     max-width:777px;
@@ -444,7 +492,7 @@ img.portrait.mr-3{
 }
 section#demo{
     background-color:#50aaf3 !important;
-    padding:4.236em 0.25em 4.236em 0.25em !important;
+    padding:3.815em 0.25em 4.768em 0.25em !important;
     min-height: 495px;
 }
 section#demo a{
