@@ -23,18 +23,6 @@ powered by <a href="http://iubenda.refr.cc/7RC9K85">iubenda</a>
 </p>
 <!--End Privacy and Terms-->
 
-  <p class="powered-by">
-    {{ if not site.Params.i_am_a_sponsor }}
-    Published with
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic Website Builder</a>
-    {{ end }}
-</p>
-
-
-  <p class="powered-by">
-    {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}}{{ end }}
-  </p>
-
 
   <!--Start Creative Commons-->
   <div id="creativecommons">
@@ -44,11 +32,8 @@ powered by <a href="http://iubenda.refr.cc/7RC9K85">iubenda</a>
   </div>
   <!--End Creative Commons-->
 
-  {{/* Display copyright license. */}}
 
   {{ partial "site_footer_license" . }}
-
-
 
 
 <!--Start My Button-->

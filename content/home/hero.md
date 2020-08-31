@@ -8,7 +8,7 @@ weight = 2  # Order that this section will appear.
 title = "Vision & Mission"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "TheGoodMath.png"
+hero_media = ""
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -21,7 +21,7 @@ hero_media = "TheGoodMath.png"
   
   # Background gradient.
   gradient_start = "#50aaf3"
-  gradient_end = "#fff"
+  gradient_end = "#c5e3fb"
   
   # Background image.
   # image = ""  # Name of image in `static/img/`.

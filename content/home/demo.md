@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
 
-title = ""
+title = "MATHEMATICS </br> It's Never too Late to Learn"
 subtitle = ""
 
 [design]
@@ -49,4 +49,4 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-{{% getupdatesembedded %}}
+{{% getupdatespage %}}
