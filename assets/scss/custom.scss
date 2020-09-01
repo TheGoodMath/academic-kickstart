@@ -134,6 +134,9 @@ b, strong{
 //////////////////////////
 // NAVIGATION
 //////////////////////////
+.navbar{
+    border-bottom: 1px solid #64b3f5;
+}
 .navbar .nav-link{
     color:#ff9 !important;
     font-size: 1.618em;
@@ -183,21 +186,23 @@ ul.nav-icons{
     margin-right:auto;
     padding-left:2.618em;
     padding-right:2.618em;
-    margin-top:-1px;
+    background-image: linear-gradient(#50aaf3,#8bc6f7);
+    border-top: 1px solid #3790da;
 }
 .form-control{
     max-width: 950px;
     margin-left:auto;
     margin-right: auto;
-    border-left:1px solid #50aaf3;
-    border-right:1px solid #50aaf3;
-    border-bottom:1px solid #50aaf3;
-    border-top:1px solid #50aaf3;
-    border-radius:0 0 7px 7px;
+    border-left:1px solid #8bc6f7;
+    border-right:1px solid #8bc6f7;
+    border-bottom:1px solid #8bc6f7;
+    border-top:none;
+    border-radius:0;
     color:#3da0f2;
+    background-color:#ecf6fe;
 }
 input.form-control{
-    color:#3da0f2 !important;
+    color:#ecf6fe !important;
 }
 ::placeholder{
     color:#3da0f2 !important;
