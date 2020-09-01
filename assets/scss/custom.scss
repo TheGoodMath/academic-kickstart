@@ -6,6 +6,9 @@ body{
 b, strong{
     font-weight: 700;
 }
+img a{
+    background-color:none !important;
+}
 
 //////////////////////////
 // BAR
@@ -79,6 +82,9 @@ b, strong{
 }
 .wg-hero .btn a{
     text-decoration:none !important;
+}
+.wg-hero p{
+    text-align: center!important;
 }
 .hero-title{
     font-size:2.618rem;
@@ -187,6 +193,7 @@ ul.nav-icons{
     padding-left:2.618em;
     padding-right:2.618em;
     background-image: linear-gradient(#50aaf3,#8bc6f7);
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
     border-top: 1px solid #3790da;
 }
 .form-control{
@@ -225,6 +232,11 @@ td.gsc-result-info-container {
     border: none;
     padding: 0 !important;
     margin: 0 !important;
+}
+.gsc-control-cse.gsc-control-cse-en a{
+    background-color:white;
+    font-style:normal;
+    padding:0;
 }
 //////////////////////////
 // DOCS Sidebar
@@ -327,13 +339,14 @@ a.mybutton:hover{
 a.mybuttonstayupdated{
     text-decoration:none !important;
     border:0.25em solid #3DA0F2 !important;
-    background-color:white !important;
+    background-color:#ff6 !important;
     margin:1em 0 0 0;
     color:#3DA0F2
 }
 a.mybuttonstayupdated:hover{
     color:#3DA0F2 !important;
     border:0.25em solid #3DA0F2 !important;
+    background-color:#ff3 !important;
 } 
 a.hero-cta-alt.pl-4{
     padding-left:0.618rem !important;
@@ -374,6 +387,7 @@ div.alert-warning > div:first-child::before{
 //////////////////////////
 article{
     min-height: 333px!important;
+    padding-bottom:5.96em;
 }
 .article-container{
     max-width:777px;
@@ -551,7 +565,7 @@ section#demo a{
     max-width:777px;
 }
 .home-section.wg-featurette{
-    padding:2.618em 0 0 0 !important;
+    padding:2.618em 0 7.451em 0 !important;
     background-image: linear-gradient(#c5e3fb, #fff);
 }
 .featurette h1{
@@ -570,7 +584,7 @@ section#demo a{
     display:block;
     padding:1.618em 0 0 0 !important;
     border-top:1px solid #c5e3fb!important;
-    margin:7.451em 0 5.96em 0;
+    margin:0 0 5.96em 0;
     text-align:center;
     //display:none !important;
 }

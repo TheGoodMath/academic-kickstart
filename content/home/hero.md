@@ -50,7 +50,7 @@ hero_media = ""
 #[cta_note]
 #  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
-## TheGoodMath's Vision :eye_speech_bubble:
+## TheGoodMath's Vision :dart:
 {{% alert note %}}
 **Good World** *if and only if* **Good Math(s)**.
 {{% /alert %}}
@@ -58,7 +58,7 @@ hero_media = ""
 ## TheGoodMath's Mission :fire:
 
 {{% alert note %}}
-To Learn **The Fundamentals of Mathematics**.
+To *Learn* and *Share*: **The Fundamentals of Mathematics**.
 {{% /alert %}}
 
 <a class="mybutton" href="javascript:;" onclick="ml_account('webforms', '2301916', 'g1t2k6', 'show')">START NOW <br/> GET My Updates</a>
