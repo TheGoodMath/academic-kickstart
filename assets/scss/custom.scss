@@ -6,10 +6,6 @@ body{
 b, strong{
     font-weight: 700;
 }
-img a{
-    background-color:none !important;
-}
-
 //////////////////////////
 // BAR
 //////////////////////////
@@ -340,14 +336,14 @@ a.mybutton:hover{
 a.mybuttonstayupdated{
     text-decoration:none !important;
     border:0.25em solid #3DA0F2 !important;
-    background-color:#ff6 !important;
+    background-color:#ff9 !important;
     margin:1em 0 0 0;
     color:#3DA0F2
 }
 a.mybuttonstayupdated:hover{
     color:#3DA0F2 !important;
     border:0.25em solid #3DA0F2 !important;
-    background-color:#ff3 !important;
+    background-color:#ff6 !important;
 } 
 a.hero-cta-alt.pl-4{
     padding-left:0.618rem !important;
@@ -405,12 +401,13 @@ article{
     padding: 0.25em !important;
 }
 .article a{
-    text-decoration: underline;
-    background-color:#ffb;
-    padding:0 0.25em;
-    color:#ff4242;
-    font-style:italic;
+    color:#3da0f2;
     text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.article a:hover{
+    background-color:#ff6;
 }
 //////////////////////////
 // DOCS Content
