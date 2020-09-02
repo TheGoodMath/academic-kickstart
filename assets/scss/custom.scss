@@ -170,7 +170,7 @@ ul.nav-icons{
 @media (max-width: 991.98px) {
     #navbar-main .main-menu-item .nav-item .nav-link {
         padding: 0 0.8em 0 2em !important;
-        font-size: 1em;
+        font-size: 1.618em;
     }
     ul.navbar-nav.d-md-inline-flex{
         background-color:#50aaf3;
@@ -178,6 +178,7 @@ ul.nav-icons{
     }
     li.nav-item{
         border-top:1px solid #64b3f5;
+        border-bottom:1px solid #3da0f2;
     }
     div#navbar-content{
         background-color:#50aaf3;
@@ -289,7 +290,7 @@ td.gsc-result-info-container {
 // CTA
 //////////////////////////
 .mybutton{
-    background-color:#ff2d2b;
+    background-color:#ff4242;
     color:#ff9;
     border-radius: 0.333em;
     padding:       0.5em 1em 0.7em 1em !important;
@@ -407,7 +408,7 @@ article{
     text-decoration: underline;
     background-color:#ffb;
     padding:0 0.25em;
-    color:#ff2d2d;
+    color:#ff4242;
     font-style:italic;
     text-align: center;
 }
@@ -486,6 +487,10 @@ p{
 ul{
     padding-inline-start: 2.441em;
     margin-bottom:1.333em;
+}
+.col-lg-12{
+    padding-left:0;
+    padding-right:0;
 }
 //////////////////////////
 // BLOCKQUOTE
