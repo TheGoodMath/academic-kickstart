@@ -4,7 +4,7 @@ body{
     font-weight: 300 !important;
 }
 b, strong{
-    font-weight: 700;
+    font-weight: 400;
 }
 //////////////////////////
 // BAR
@@ -20,8 +20,8 @@ b, strong{
     border:0.1em solid #3da0f2;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #ff3; 
-} 
+    background: #ff3;
+}
 ::-webkit-scrollbar-track{
     background-image: linear-gradient(#3DA0F2, #fff);
 }
@@ -35,8 +35,8 @@ b, strong{
     border:0.1em solid #3da0f2;
 }
 .docs-toc::-webkit-scrollbar-thumb:hover {
-    background: #ff3; 
-} 
+    background: #ff3;
+}
 .docs-toc::-webkit-scrollbar-track{
     background-image: linear-gradient(#fff, #3DA0F2);
 }//////////////////////////
@@ -294,7 +294,7 @@ td.gsc-result-info-container {
     text-align:    center;
     font-weight:   700;
     text-decoration:none !important;
-} 
+}
 .mybutton:hover{
     background-color: red;
     color:#ff6;
@@ -324,7 +324,7 @@ a.mybutton:hover{
     font-weight:   700!important;
     text-decoration:none !important;
     margin:0.9em 0 0.85em 0!important;
-} 
+}
 .mybuttonstayupdated:hover{
     border-radius: 0.333em;
     box-shadow:    0px 0px 1px #3DA0F2;
@@ -344,7 +344,7 @@ a.mybuttonstayupdated:hover{
     color:#3DA0F2 !important;
     border:0.25em solid #3DA0F2 !important;
     background-color:#ff6 !important;
-} 
+}
 a.hero-cta-alt.pl-4{
     padding-left:0.618rem !important;
     font-weight: 400;
@@ -392,7 +392,7 @@ article{
 }
 .pt-3{
     padding-top:0!important;
-} 
+}
 .article-metadata{
     display:none;
 }
@@ -456,20 +456,20 @@ h3{
     font-size: 1.333em;
     font-weight: 700 !important;
     margin-bottom:0.777em;
-    margin-top:1.333em;  
+    margin-top:1.333em;
 }
 .dark h3{
     font-size: 1.333em;
     font-weight: 700 !important;
     color:#eee;
     margin-bottom:0.777em;
-    margin-top:1.333em;  
+    margin-top:1.333em;
 }
 h4, h5, h6{
     font-size: 1em;
     font-weight: 700 !important;
     margin-bottom:1em;
-    margin-top:1.333em;   
+    margin-top:1.333em;
 }
 .dark h4, .dark h5, .dark h6{
     font-size: 1em;
